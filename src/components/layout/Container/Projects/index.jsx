@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div>
         <div>
-            <h4 id='Project'>Selected Projects</h4>
+            <h4 id='Project'>Projetos selecionados</h4>
             <span>2019 - present</span>
             <div className='container-projects'>
              <div>

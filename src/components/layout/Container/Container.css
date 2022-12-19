@@ -3,6 +3,7 @@
   padding: 10px;
   display: flex;
   justify-content: center;
+  line-height: 1.7;
 }
 
 .container-img {
@@ -16,6 +17,7 @@
 .container-img p {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 .container-img a {
   margin-top: px;

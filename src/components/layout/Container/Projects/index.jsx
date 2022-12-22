@@ -7,44 +7,39 @@ function Projects() {
   return (
     <div>
         <div>
-            <h4 id='Project'>Projetos selecionados</h4>
+            <h2 id='Project'>Projetos selecionados</h2>
             <span>2019 - present</span>
             <div className='container-projects'>
              <div>
-                <p> <b>This is project name! Name wisely!</b></p>
-                <p>Fill your project brief here. 
+                <h3> This is project name! Name wisely!</h3>
+                <p className='p-container'>Fill your project brief here. 
                 It can be the outcome of the project, 
                 or some success metrics, or a cheesy tagline.</p>
                 <div className='align-arrow'>
                   <div>
-                    <a href=""> <b> Try it out</b></a>
+                    <a className='p-container' href=""> <b> Try it out</b></a>
                   </div>
-                  <div>
-                  <img src={Arrow} alt="" />
-                  </div>
+                  
                 </div>
-                
-                
               </div>
               <div>
                 <img src={Project} alt="project 1" />
               </div>
               
+
             </div>
             <span>2019 - present</span>
             <div className='container-projects'>
              <div>
-                <p> <b>This is project name! Name wisely!</b></p>
-                <p>Fill your project brief here. 
+             <h3> This is project name! Name wisely!</h3>
+                <p className='p-container'>Fill your project brief here. 
                 It can be the outcome of the project, 
                 or some success metrics, or a cheesy tagline.</p>
                 <div className='align-arrow'>
-                  <div>
-                    <a href=""><b> Try it out</b></a>
+                  <div >
+                    <a className='p-container' href=""><b> Try it out</b></a>
                   </div>
-                  <div>
-                  <img src={Arrow} alt="" />
-                  </div>
+                  
                 </div>
                 
               </div>
@@ -52,22 +47,19 @@ function Projects() {
                 <img src={Project} alt="project 2" />
               </div>
               
+
             </div><span>2019 - present</span>
             <div className='container-projects'>
              <div>
-                <p> <b>This is project name! Name wisely!</b></p>
-                <p>Fill your project brief here. 
+             <h3> This is project name! Name wisely!</h3>
+                <p className='p-container'>Fill your project brief here. 
                 It can be the outcome of the project, 
                 or some success metrics, or a cheesy tagline.</p>
                 <div className='align-arrow'>
                   <div>
-                    <a href=""><b> Try it out</b></a>
-                  </div>
-                  <div>
-                  <img src={Arrow} alt="" />
+                    <a className='p-container' href=""><b> Try it out</b></a>
                   </div>
                 </div>
-                
               </div>
               <div>
                 <img src={Project} alt="project 3" />

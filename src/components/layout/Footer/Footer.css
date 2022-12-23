@@ -4,17 +4,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
   margin-left: 5px;
 }
 
 .social-media {
   width: 100%;
-  max-width: 1200px;
+  
   /* background-color: gold; */
-  display: flex;
-  flex-direction: column;
-  padding: 10px 61rem;
+ 
+  /* padding: 10px 64rem; */
   /* justify-content: center; */
   margin-bottom: 20px;
 }
@@ -22,7 +20,7 @@
 .social-media ul {
   width: 100%;
   max-width: 250px;
-  background-color: aqua;
+  /* background-color: aqua; */
 
   display: flex;
   justify-content: space-between;
@@ -59,9 +57,9 @@ footer {
 }
 
 @media (max-width: 1280px) {
-  .footer-color {
-    padding: 10px 21rem;
-  }
+    .footer-color {
+        padding: 10px 21.3rem;
+      }
 
   .social-media ul {
     gap: 10px;

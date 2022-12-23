@@ -3,7 +3,8 @@
   color: #202020;
   display: flex;
   flex-direction: column;
-  padding: 10px 64rem;
+  justify-content: center;
+  padding: 10px;
   margin-left: 5px;
 }
 
@@ -13,14 +14,15 @@
   /* background-color: gold; */
   display: flex;
   flex-direction: column;
+  padding: 10px 61rem;
   /* justify-content: center; */
   margin-bottom: 20px;
 }
 
 .social-media ul {
   width: 100%;
-  max-width: 150px;
-  /* background-color: aqua; */
+  max-width: 250px;
+  background-color: aqua;
 
   display: flex;
   justify-content: space-between;

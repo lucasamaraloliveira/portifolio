@@ -9,10 +9,10 @@
 
 .social-media {
   width: 100%;
-  
+
   /* background-color: gold; */
- 
-  /* padding: 10px 64rem; */
+
+  padding: 10px 56.5rem;
   /* justify-content: center; */
   margin-bottom: 20px;
 }
@@ -57,9 +57,9 @@ footer {
 }
 
 @media (max-width: 1280px) {
-    .footer-color {
-        padding: 10px 21.3rem;
-      }
+  .footer-color {
+    padding: 10px 21.3rem;
+  }
 
   .social-media ul {
     gap: 10px;
